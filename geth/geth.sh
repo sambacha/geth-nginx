@@ -1,0 +1,1 @@
+./geth --cache 4096 --rpc --rpcaddr "127.0.0.1" --rpccorsdomain "*" --rpcport "8545" --rpcapi "db, eth, net, web3, personal" --ws --wsport 8546 --wsaddr "127.0.0.1" --wsorigins "*" --wsapi "web3, eth" --maxpeers=100

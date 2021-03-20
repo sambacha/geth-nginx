@@ -1,0 +1,17 @@
+
+#!/bin/sh
+
+# Canonical absolute path to the PID file.
+#
+# DEFAULT: /run/nginx.pid
+#PIDFILE=/var/run/nginx.pid
+
+# Arguments that should be passed to the daemon.
+#
+# DEFAULT: ''
+#DAEMON_ARGS=''
+
+# Override verbosity environment variable.
+#
+# DEFAULT: no
+#VERBOSE=yes
