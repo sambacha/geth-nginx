@@ -23,10 +23,10 @@ First start and sync a node on the device with the RPC and websocket endpoints o
 cd /etc/nginx
 
 #Create a backup of your current NGINX configuration:
-tar -czvf nginx_$(date +'%F_%H-%M-%S').tar.gz nginx.conf sites-available/ sites-enabled/ nginxconfig.io/
+tar -czvf nginx_$(date +'%F_%H-%M-%S').tar.gz nginx.conf sites-available/ sites-enabled/ www/
 
 #Extract the new compressed configuration archive using tar:
-tar -xzvf nginxconfig.io-backbonecabal.net.tar.gz
+tar -xzvf www-backbonecabal.net.tar.gz
 
 #Create a common ACME-challenge directory (for Let's Encrypt):
 mkdir -p /var/www/_letsencrypt
