@@ -3,3 +3,4 @@
 /.gitignore     export-ignore
 .*              text eol=lf
 *.sh            text eol=lf
+*.vim linguist-vendored=true
