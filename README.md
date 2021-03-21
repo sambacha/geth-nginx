@@ -1,5 +1,7 @@
 # [geth-nginx](#)
 
+![](./docker/pagespeed.png)
+
 ## go-ethereum mode
 
 A small NGINX recipe that makes Geth’s RPC and Websocket interface remotely accessible on a node. With this config RPC becomes remotely accessible at http://{SERVER_IP}/rpc and websockets at http://{SERVER_IP}/ws.
